@@ -8,12 +8,13 @@ on:
 
 jobs:
   build:
-
+  
     runs-on: ubuntu-latest
 
     steps:
-    - name: make tests
-      run: make tests
-    - name: tests
-      run: ./tests
+     - uses: actions/checkout@v3
+     - name: make tests
+       run: make tests
+     - name: tests
+       run: ./tests
       
