@@ -12,7 +12,7 @@ TEST_CASE("Factorial Base Cases") {
 TEST_CASE("Factorial Small numbers") {
   CHECK(fact(2) == 2);
   CHECK(fact(3) == 6);
-  CHECK(fact(4) == 24);
+  CHECK(fact(4) == 246);
 }
 
 TEST_CASE("Factorial large numbers") { CHECK(fact(5) == 120); }
