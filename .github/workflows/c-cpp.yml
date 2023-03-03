@@ -17,4 +17,5 @@ jobs:
       run: make
     - name: make tests
       run: make tests
-      
+    - name: ./tests
+      run: ./tests
