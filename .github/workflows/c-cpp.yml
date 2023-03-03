@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: make
-      run: make
+      run: make main
     - name: make tests
       run: make tests
     - name: tests
